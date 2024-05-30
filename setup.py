@@ -4,7 +4,7 @@ from setuptools import find_packages, setup
 
 setup(
     name="genshin",
-    version="1.6.3",
+    version="1.7.0",
     author="thesadru",
     author_email="thesadru@gmail.com",
     description="An API wrapper for Genshin Impact.",
@@ -20,7 +20,7 @@ setup(
     extras_require={
         "all": ["browser-cookie3", "rsa", "click", "qrcode[pil]"],
         "cookies": ["browser-cookie3"],
-        "geetest": ["rsa", "qrcode[pil]"],
+        "auth": ["rsa", "qrcode[pil]"],
         "cli": ["click"],
     },
     include_package_data=True,
